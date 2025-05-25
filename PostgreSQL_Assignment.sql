@@ -16,7 +16,7 @@ CREATE TABLE species (
     common_name VARCHAR(100) NOT NULL,
     scientific_name VARCHAR(100) NOT NULL,
     discovery_date DATE NOT NULL,
-    conservation_status VARCHAR(50) NOT NULL  CHECK (conservation_status IN ('Endangered', 'Vulnerable', 'Historic'))
+    conservation_status VARCHAR(50) NOT NULL  
 );
 
 -- Create Sightings Table
