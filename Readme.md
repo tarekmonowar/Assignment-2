@@ -36,7 +36,7 @@ CREATE TABLE blog_posts (
 );
 ```
 
-## 2 / Explain the Primary Key and Foreign Key concepts in PostgreSQL.
+## 2 / Questions-3 : Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 
 Primary Key: এটি একটি কলাম বা কয়েকটি কলামের সমষ্টি যা একটি টেবিলের প্রতিটি
 রেকর্ডকে ইউনিকভাবে আইডেন্টিফাই করার জন্য ব্যবহৃত হয় (যেমন: ranger_id)। এটি NULL
@@ -65,7 +65,7 @@ CREATE TABLE sightings (
 
 ```
 
-## 4/ What is the difference between the VARCHAR and CHAR data types?
+## 3 / Questions-4 : What is the difference between the VARCHAR and CHAR data types?
 
 ### VARCHAR এবং CHAR উভয়ই PostgreSQL-এ স্ট্রিং ডেটা টাইপ, তবে এদের মধ্যে কিছু গুরুত্বপূর্ণ পার্থক্য আছে।
 
@@ -86,7 +86,7 @@ CREATE TABLE customers (
 );
 ```
 
-## 5/ Explain the purpose of the WHERE clause in a SELECT statement.
+## 4 / Questions-5 :Explain the purpose of the WHERE clause in a SELECT statement.
 
 SELECT স্টেটমেন্ট ব্যবহার করলে, ডেটাবেজের একটি টেবিল থেকে ডেটা আনা হয়।কিন্তু সব
 সময় আমাদের পুরো টেবিলের সব ডেটা দরকার হয় না — আমরা চাই নির্দিষ্ট কিছু রেকর্ড,
@@ -103,7 +103,7 @@ SELECT * FROM employees
 WHERE salary > 50000 AND department = 'IT';
 ```
 
-## 8 /What is the significance of the JOIN operation, and how does it work in PostgreSQL?
+## 5 / Questions-8 : What is the significance of the JOIN operation, and how does it work in PostgreSQL?
 
 JOIN অপারেশন টেবিলগুলোর মধ্যে সম্পর্ক তৈরি করে এবং একাধিক টেবিল থেকে ডেটা একত্রে
 দেখার সুযোগ দেয়। ডেটাবেইজে সাধারণত টেবিলগুলো আলাদা রাখা হয় (Normalization) ,
